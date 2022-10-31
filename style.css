@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
 
 * {
     padding: 0;
@@ -39,10 +39,20 @@ h2 {
 }
 
 li {
+    list-style: none;
+
+}
+
+a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
 
+.section_y img {
+    width: 450px;
+    height: 250px;
+    
 }
 
 
@@ -52,8 +62,15 @@ li {
 
 h3 {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937
+}
+
+p img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
 
 
@@ -68,22 +85,43 @@ h3 {
     color: #1F2937;
 }
 
+span {
+    font-style: normal;
+    font-weight: 600;
 
-/* .section_4 {
-    
-} */
+}
+
+
+.section_4 {
+    color: #F9FAF8;
+}
 
 .sign_up {
     background-color: #3882F6;
+    border-radius: 8px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border: 2px solid #1F2937;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sign_up button {
+    border: 2px solid white;
+}
+
+strong {
+    display: block;
 }
 
 
 footer {
     background-color: #1F2937;
-
+    font-size: 16px;
+    color: #F9FAF8;
 }
