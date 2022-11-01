@@ -89,12 +89,32 @@ a {
 
 .section_2 {
     flex: 1;
+    padding: 80px 0;
+}
+
+.text_withImages {
+    display: flex;
+    padding: 0 10vw;
+    justify-content: space-between;
+    min-height: 30vh;
 }
 
 h3 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937
+    color: #1F2937;
+    text-align: center;
+}
+
+.text_withImages p {
+    flex: 1;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    
 }
 
 p img {
@@ -102,12 +122,15 @@ p img {
     height: 200px;
     border: 4px solid #3882F6;
     border-radius: 10px;
+   
 }
 
 
 .section_3 {
     background-color: #EFE7EB;
     flex: 1;
+    padding: 100px 15vw;
+
 
 }
 
@@ -115,11 +138,15 @@ p img {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 span {
     font-style: normal;
     font-weight: 600;
+    align-self: flex-end;
 
 }
 
@@ -127,12 +154,18 @@ span {
 .section_4 {
     color: #F9FAF8;
     flex: 1;
+    padding: 100px 10vw;
 }
 
 .sign_up {
     background-color: #3882F6;
     border-radius: 8px;
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
 
 button {
     background-color: #3882F6;
@@ -142,10 +175,17 @@ button {
     padding: 5px 20px;
     font-size: 16px;
     font-weight: 400;
+
 }
 
 .sign_up button {
     border: 2px solid white;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.sign_up p {
+    width: 40vw;
 }
 
 strong {
